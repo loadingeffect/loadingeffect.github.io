@@ -1,0 +1,7 @@
+ body {
+     background-color: white;
+     background-image:url("img/sample-pattern.png");
+     padding: 200px;
+     margin: 2px;
+     border-bottom:1px;
+     }

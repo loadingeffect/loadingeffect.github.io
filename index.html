@@ -1,15 +1,125 @@
-<html>
-  <head>
-    <title>My Homepage</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=!, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<head>
+   <link href="style.css" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+ </head>
+ <body>
+   <header>
+     <img id="logo" src="img/lamborghini.jpg"alt="ini gambar" width="200px" />
+     <nav>
+       <ul>
+         <a href="home.html"><li>Home</li></a>
+         <a href="about.html"><li>About</li></a>
+         <a href="contact.html"><li>Contact</li></a>
+       </ul>
+     </nav>
+   </header>
+
+   <style>
+   a:link {
+       color: blue;
+       background-color: transparent;
+       text-decoration: none;
+   }
+
+   a:visited {
+       color: blue;
+       background-color: transparent;
+       text-decoration: none;
+   }
+
+   a:hover {
+       color: green;
+       background-color: transparent;
+       text-decoration: underline;
+   }
+
+   a:active {
+       color: red;
+       background-color: transparent;
+       text-decoration: underline;
+   }
+   </style>
+
+   <section>
+     <h1>RINGKASAN TERKAIT HTML, CSS, MARKDOWN, DAN GITHUB</h1>
+       <p>Oke langsung saja pada topik pembahasan kita yaitu HTML, CSS, MARKDOWN, DAN GITHUB saya akan mencoba menjelaskannya secara ringkas dan akan saya coba sertakan dengan gambar dan beberapa referensi terkait pembahasan kita tersebut.</p>
+  <h2>1.	HTML (Hyper Text Markup Language)</h2>
+  <H3>Elemen Dasar dengan Tag dan Atribut (Tags dan Attributes)</H3>
+<P>Dokumen atau konten HTML dalam sebuah halaman web dideskripsikan dengan elemen HTML atau tag seperti head, title, body, article, section, p, div, span, img, picture, dan banyak lainnya. Elemen-elemen ini membentuk bagian pembangun (building blocks) sebuah website. Website dapat memiliki sedikit atau banyak dari elemen-elemen tersebut dan dari beberapa teks terdapat di antara tag pembuka dan penutup.</P>
+  <p>Berikut adalah screenshot dari index html berikut hasilnya jika dibuka dengan browser</p>
+<img src="img/strukturhtml.png">
+  <p>pelajari selengkapnya tentang HTML di <a href="www.github.com"> www.github.com</a></p>
+
+  <h2>CSS (Cascading Style Sheet)</h2>
+    <p>CSS secara harfiah berarti Lembar Penggayaan yang Mengalir ke Bawah. Oke, ternyata jika diterjemahkan malah membingungkan, mari hanya pedulikan bahasa Inggrisnya. CSS merupakan bahasa style sheet yang berguna untuk membantu menyajikan dokumen yang ditulis dengan HTML maupun XML bahkan SVG. CSS mengatur bagaimana elemen-elemen seharusnya ditampilkan di layar, di kertas, dan berbagai media lainnya. Hal-hal seperti warna, ukuran, posisi, dll (color, size, position, etc) dapat diatur oleh CSS. Tentu saja berarti CSS membutuhkan HTML agar dapat bekerja. Saat ini versi terbarunya adalah versi 3, secara resmi disebut CSS3.</p>
+  <p>Sintaks atau cara penulisan CSS biasanya terlihat seperti ini:</p>
+  <img src="img/strukturcss.png" alt="strukturcss">
+
+  <h3>Menyertakan CSS untuk HTML</h3>
+    <p>Ada 4 metode utama untuk menyertakan CSS agar dapat mengubah layout HTML disini saya akan menjelaskan salah satunya yang mudah kita gunakan.</p>
+  <p>Link ke file CSS terpisah. Dengan cara menaruh meta data berikut di head HTML.</p>
+  <p>Contoh link CSS</p>
+  <img src="img/CSStohtml.png" alt="ini gambar">
+
+  <p>Berikut adalah contoh sebelum dan sesudah menggunakan CSS pada HTML</p>
+    <p>contoh HTML tanpa CSS</p>
+      <img src="img/sebelumcss.png" alt="ini gambar">
+        <p>contoh HTML dengan CSS</p>
+          <img src="img/setelahcss.png" alt="ini gambar">
+  <p>pelajari lebih lanjut tentang CSS di <a href="www.github.com"> www.github.com</a></p>
+
+  <h2>MARKDOWN</h2>
+    <p>Markdown adalah sebuah cara untuk menulis konten untuk web yang menggunakan file .md atau .markdown.</p>
+  <p>CONTOH</p>
+    <table style="width: 100%">
+      <tr>
+        <th> CODE </th>
+        <th> NAMA CODE</th>
+        <th> CONTOH</th>
+        <th> HASIL</th>
+      </tr>
+
+      <tr>
+        <th> # </th>
+        <th> heading</th>
+        <th> #CONTOH#</th>
+        <th>   <h1>CONTOH</h1></th>
+      </tr>
+
+      <tr>
+        <th> ** </th>
+        <th> bold</th>
+        <th> *CONTOH*</th>
+        <th> <strong>CONTOH</strong></th>
+      </tr>
+
+      <tr>
+        <th> **_ </th>
+        <th> bold dan italic</th>
+        <th> **_CONTOH_**</th>
+        <th> <strong><em>CONTOH</em></strong></th>
+      </tr>
+    </table>
+
+  <p>pelajari selanjutnya tentang MARKDOWN di <a href="www.github.com"> www.github.com</a></p>
+
+    <h2>GIT dan GITHUB</h2>
+      <p>Git merupakan tool utama yang pasti akan kamu gunakan setiap hari, sepanjang karirmu sebagai developer. Dengan ini kamu dapat tahu apa saja yang kamu lakukan setiap saat dan berkolaborasi dengan rekan lainnya juga. Anggaplah Git sebagai mesin waktu untuk berbagai kerjaan dan file/folder yang kamu kelola.</p>
+      <p>Sedangkan GitHub merupakan tempat sekaligus komunitas untuk para developer berbagai code dan berkolaborasi dalam berbagai project software. Bahkan modern ini, profil GitHub dapat menggantikan resume/CV untuk melamar pekerjaan!</p>
+  <p>Sebelum melangkah lebih jauh, terlebih dahulu kita download aplikasi Git di   <a href="http://git-scm.com/downloads">http://git-scm.com/downloads</a>. Sesuaikan dengan system operasi yang digunakan.</p>
+  <p>Pelajari cara mensinkronkan Git dengan Github di www.github.com</p>
+    <p>Pelajari lebih lanjut tentang Git di   <a href="www.github.com"> www.github.com</a></p>
 
 
-  <body>
-    <h1>My homepage!</h1>
-    
-    <h2>
-        ;) just test
-    </h2>
-
+   <footer>
+     <h5>copyright &copy; 2018 by Me</h5>
+   </footer>
   </body>
 </html>

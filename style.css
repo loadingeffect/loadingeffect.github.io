@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  background-image:url("img/sample-pattern.png");
+  padding: 1px;
+  border-bottom:1px;
+  }
+
+  #logo {
+    position: absolute;
+      left: 5px;
+      top: 25px;
+      z-index: 2;
+     }
+
+     h1  {
+       text-align: center;
+       padding: 80px;
+       margin-bottom: 20px;
+       font-size: 36pt;
+       }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+    border-spacing: 10px;
+}
+
+nav ul li {
+  display: inline;
+  float: right;
+  padding: 0px;
+  margin:5px;
+  }
+
+
+  footer, h5{
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+    color: white;
+    margin-top: 20px;
+  }

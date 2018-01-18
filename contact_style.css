@@ -1,0 +1,15 @@
+img {
+  position: absolute;
+    left: 5px;
+    top: 25px;
+    z-index: 2;
+    margin: 20px;
+   }
+
+   body {
+     background-color: white;
+     background-image:url("img/sample-pattern.png");
+     padding: 200px;
+     margin: 2px;
+     border-bottom:1px;
+     }
